@@ -24,7 +24,7 @@ const Canvas = () => {
         alt=""
         // uk-cover
       />
-      <div className="uk-position-bottom-right uk-position-small uk-text-center uk-light bg-black bg-opacity-60 px-20 py-14">
+      <div className="RName uk-position-bottom-right uk-position-small uk-text-center uk-light bg-black bg-opacity-60 drop-shadow-2xl px-20 py-14">
         <h2 className="uk-margin-remove font-semibold text-4xl">
           {sliderData.strDrink}
         </h2>
