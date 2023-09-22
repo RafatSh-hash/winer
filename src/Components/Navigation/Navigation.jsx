@@ -21,20 +21,20 @@ const Navigation = ({ user }) => {
           <div className="flex justify-center items-center">
             <input
               type="text"
-              className="px-3 rounded-sm py-1"
+              className="px-3 rounded-sm py-1 bg-black text-white border-black focus:bg-gray-700"
               placeholder="Search your drink"
             />
-            <div className="w-6 h-6 rounded-full mx-5">
-              <button>
+            <div className="w-8 h-8 p-2 rounded-r-md bg-black">
+              <div className="button">
                 <img src={search} alt="" className="w-full h-full" />
-              </button>
+              </div>
             </div>
           </div>
         </div>
         {user ? (
           <>
             <div className="w-6 h-6 rounded-full mx-5  py-1">
-              <button>
+              <button className="">
                 <img src={userImg} alt="" className="w-full h-full" />
               </button>
             </div>
@@ -42,7 +42,7 @@ const Navigation = ({ user }) => {
         ) : (
           <>
             <div className="w-6 h-6 rounded-full mx-5  py-1">
-              <button>
+              <button className="">
                 <img src={Google} alt="" className="w-full h-full" />
               </button>
             </div>

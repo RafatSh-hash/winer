@@ -17,7 +17,7 @@ const Canvas = () => {
   }, []);
 
   return (
-    <li>
+    <li style={{ fontFamily: "Dancing Script" }}>
       <img
         className="w-full h-full"
         src={sliderData.strDrinkThumb}
