@@ -1,6 +1,5 @@
 /*! UIkit 3.16.22 | https://www.getuikit.com | (c) 2014 - 2023 YOOtheme | MIT License */
 html {
-  
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
@@ -19,9 +18,8 @@ a {
 }
 .uk-link-toggle:hover .uk-link,
 .uk-link:hover,
-a:hover {
+:hover {
   color: #0f6ecd;
-  text-decoration: underline;
 }
 abbr[title] {
   text-decoration: underline dotted;
@@ -34,7 +32,6 @@ strong {
 :not(pre) > code,
 :not(pre) > kbd,
 :not(pre) > samp {
-
   font-size: 0.875rem;
   color: #f0506e;
   white-space: nowrap;
@@ -5489,7 +5486,7 @@ iframe[uk-cover] {
 }
 .uk-logo {
   font-size: 1.5rem;
- 
+
   color: #333;
   text-decoration: none;
 }

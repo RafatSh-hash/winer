@@ -13,3 +13,20 @@ body {
 .RName {
   clip-path: polygon(0% 100%, 100% 100%, 100% 10%, 50% 0%, 0% 10%);
 }
+
+.nonA_bgImg {
+  background-image: url("./assets/Image/B2.jpg");
+
+  /* Other background properties can be added here */
+  background-size: cover; /* Optional: Adjust the size of the background image */
+  background-repeat: no-repeat;
+  transition: transform 1s, font-size 1s; /* Optional: Prevent the background image from repeating */
+}
+.a_bgImg {
+  background-image: url("./assets/Image/B3.jpg");
+
+  /* Other background properties can be added here */
+  background-size: cover; /* Optional: Adjust the size of the background image */
+  background-repeat: no-repeat;
+  transition: transform 1s, font-size 1s; /* Optional: Prevent the background image from repeating */
+}

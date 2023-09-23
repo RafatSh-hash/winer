@@ -11,7 +11,7 @@ import left from "../../../assets/Icons/arrowLeft.png";
 
 const Signature = () => {
   return (
-    <div className="p-10 h-96 flex flex-row items-center justify-center">
+    <div className="p-10 h-96 flex flex-row items-center justify-center my-10 md:my-14 lg:my-20">
       <div className="border-8 border-l-white border-b-transparent border-r-transparent border-t-transparent p-10 w-full md:w-[60%] lg:w-[60%]">
         <h1
           className="text-5xl font-semibold text-white text-left"
@@ -19,7 +19,7 @@ const Signature = () => {
         >
           Our Signature Cocktails
         </h1>
-        <p className="text-white text-left text-sm my-3">
+        <p className="text-white text-left text-base my-3">
           At Winer, we invite you to indulge in the art of mixology and elevate
           your cocktail experience. Our carefully crafted libations are more
           than just drinks; they are a celebration of flavors, a fusion of
@@ -27,7 +27,7 @@ const Signature = () => {
           bartenders.
         </p>
       </div>
-      <div className="w-full md:w-[40%] lg:w-[40%] ">
+      <div className="w-full md:w-[40%] lg:w-[40%] my-10 pb-10">
         <div
           className="uk-position-relative uk-visible-toggle uk-light"
           tabindex="-1"
