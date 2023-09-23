@@ -11,7 +11,7 @@ const Welcome = () => {
         >
           Welcome to Winer: Where Every Sip is a Celebration
         </h1>
-        <p className="text-sm ">
+        <p className="text-sm my-3">
           At Winer, we specialize in crafting delicious cocktails <br /> that
           are perfect for any occasion. Cheers to great times at Winer!
         </p>

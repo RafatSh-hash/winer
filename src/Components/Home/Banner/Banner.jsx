@@ -52,11 +52,14 @@ const Banner = () => {
             <Canvas></Canvas>
             <Canvas></Canvas>
             <Canvas></Canvas>
+            <Canvas></Canvas>
+            <Canvas></Canvas>
+            <Canvas></Canvas>
           </ul>
 
           <div class="uk-light">
             <a
-              class="uk-position-center-left uk-position-small "
+              class="uk-position-center-left uk-position-small uk-hidden-hover"
               href="#"
               uk-slidenav-previous
               uk-slideshow-item="previous"
