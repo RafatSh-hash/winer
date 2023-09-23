@@ -37,7 +37,7 @@ const Signature = () => {
           <ul className="uk-slider-items uk-grid">
             <li className="uk-width-3-4">
               <div className="uk-panel">
-                <img src={cocktail1} width="1400" height="1200" alt="" />
+                <img src={cocktail1} width="1800" height="1200" alt="" />
                 <div className="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
                   <h3
                     className="uk-margin-remove text-4xl font-semibold"
