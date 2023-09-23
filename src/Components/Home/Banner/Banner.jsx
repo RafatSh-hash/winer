@@ -6,7 +6,7 @@ import Canvas from "./Canvas";
 
 const Banner = () => {
   return (
-    <div className="flex flex-row">
+    <div className="flex flex-col md:flex-row lg:flex-row">
       <div
         style={{ fontFamily: "Dancing Script" }}
         className="w-full md:w-[30%] lg:w-[30%] bg-black bg-opacity-90 text-white uk-animation-toggle py-1"
